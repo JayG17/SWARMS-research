@@ -78,9 +78,7 @@ class controller_PID:
     # Adapted from https://github.com/simorxb/PID-tuning-opt/tree/main
     def tune_pid(self):
         print("----- Tuning PID -----") 
-
-        # swarms.apply_ziegler()
-
+        swarms.apply_zeigler()
         print("NEW VALUES: "+str(self.kp)+", "+str(self.ki)+", "+str(self.kd))
 
 
